@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>testing</h1>
     <a href="{{ route('customer.create') }}">tambah data</a>
     @foreach ($datas as $data )
     <h1>{{ $data->nama_customer}}</h1>
